@@ -1,0 +1,5 @@
+# Keyboard-first workspace control: the Host half is a no-op, the browser half
+# registers tree navigation, transcript scrolling and three commands.
+- insert:
+    - id: keyboard-flow
+      name: '@local/dsh-plugin-keyboard-flow'

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Claude Code commands",
+    "description": "Adds /code-review and /revise-claude-md slash commands modelled on Claude Code."
+  }
+}

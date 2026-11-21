@@ -1,0 +1,7 @@
+# Claude Code style slash commands for DSH.
+# Personal settings (for example logFile) belong in your profile layer:
+#   ~/.dsh/profiles/<profile>/cordis.patch.yml
+- insert:
+    - id: claude-code-commands
+      name: '@local/dsh-plugin-claude-commands'
+      config: {}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Claude Code 钩子",
+    "description": "会话开始时运行与 Claude Code 兼容的 SessionStart 钩子命令。"
+  }
+}

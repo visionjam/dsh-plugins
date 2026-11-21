@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Claude Code 命令",
+    "description": "添加对标 Claude Code 的 /code-review 与 /revise-claude-md 斜杠命令。"
+  }
+}

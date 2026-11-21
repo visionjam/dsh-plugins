@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Claude Code hooks",
+    "description": "Runs Claude Code compatible SessionStart hook commands when a session starts."
+  }
+}
