@@ -1,9 +1,10 @@
 {
   "name": "@local/dsh-plugin-claude-commands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "description": "Claude Code style slash commands for DeepSeek Harness",
+  "license": "MIT",
   "icon": "./icon.svg",
   "main": "index.js",
   "exports": {
@@ -19,7 +20,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@deepseek-ai/dsh-llm": "0.2.2-rc.3"
+    "@deepseek-ai/dsh-llm": "0.2.2-rc.5"
   },
   "dsh": {
     "bundle": {

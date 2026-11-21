@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Keyboard-first control for the DSH workspace: tree navigation, transcript scrolling, session stepping, focus cycling",
+  "license": "MIT",
   "main": "index.js",
   "exports": {
     ".": "./index.js",

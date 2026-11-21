@@ -47,9 +47,9 @@ profile 层在 bundle 层之后应用，按 `id` 覆盖插件配置，所以本�
 
 ## 兼容性
 
-- 针对 DSH `0.2.2-rc.5` 测试。`dsh-plugin-claude-commands` 的 `peerDependencies` 仍写着 `@deepseek-ai/dsh-llm 0.2.2-rc.3`；在更新的运行时上 DSH 会因为版本不匹配跳过该 bundle，需要把 peer 版本改成当前运行时版本（或在该 profile 上授予 exact-version exemption）后才会加载。
+- 针对 DSH `0.2.2-rc.5` 测试。`dsh-plugin-claude-commands` 的 `peerDependencies` 钉在 `@deepseek-ai/dsh-llm 0.2.2-rc.5`；DSH 对本地 bundle 做精确版本校验，升级运行时后若版本号对不上会直接跳过该 bundle，需要同步改这个版本（或在 profile 上授予 exact-version exemption）。
 - 所有插件都是纯 JS，无构建步骤；`dsh-keyboard-flow/dev` 里的测试用 jsdom，`npm install && node test.mjs`。
 
 ## 许可
 
-个人自用，未附许可证文件；如需复用请先联系仓库作者。
+[MIT](LICENSE) © 2026 visionjam
